@@ -50,6 +50,8 @@ $(document).ready(function () {
     $('.city').click(function (e) {
         var x = $(this).html()
         $("#fromcity").html(x);
+        $('.select-div').removeClass("select-div-show");
+        $('ul.lvl.l2').removeClass("transorm-origin");
     });
     $('.omenu').click(function () {
         $('ul.lvl.l2').addClass("transorm-origin");
