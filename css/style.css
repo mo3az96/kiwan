@@ -623,6 +623,78 @@ input {
     border-radius: 5px;
 }
 
+
+
+.about {
+    background-color: #F2F2F2;
+}
+
+.about-head {
+    font-size: 36px;
+    font-weight: 600;
+    color: #e86b71;
+    text-align: center;
+    margin: 0;
+}
+
+.about-sub {
+    max-width: 700px;
+    margin: 0.75em auto 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.75;
+    font-weight: 300;
+    margin: 0 auto;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.info-haed {
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #363636;
+    margin: 0;
+}
+
+.info-txt {
+    font-size: 14px;
+    line-height: 1.75;
+    font-weight: 300;
+    margin: 0;
+    max-width: 480px;
+}
+
+.image {
+    min-width: 480px;
+    text-align: left;
+}
+
+.image.right {
+    text-align: right;
+}
+
+.bock-head {
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #363636;
+    margin: 0;
+}
+
+.bock-txt {
+    font-size: 14px;
+    line-height: 1.75;
+    font-weight: 300;
+    margin: 0;
+    max-width: 500px;
+}
+
 /*responsive*/
 @media(max-width: 767px) {
     .sale-code {
@@ -772,6 +844,10 @@ input {
 
     .contentbox h3 {
         display: none;
+    }
+
+    .about {
+        padding-top: 50px;
     }
 }
 
