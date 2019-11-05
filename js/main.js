@@ -33,4 +33,27 @@ $(document).ready(function () {
         $('.way--2 #datepicker').attr('disabled');
         $('.way--2').addClass("opa");
     });
+    $('#fromcity').click(function () {
+        $('.select-div').toggleClass("select-div-show");
+        $('ul.lvl.l2').removeClass("transorm-origin");
+    });
+
+    $('body').click(function () {
+        $('.select-div').removeClass("select-div-show");
+        $('ul.lvl.l2').removeClass("transorm-origin");
+    });
+    $('.select').click(function (e) {
+        e.stopPropagation();
+    });
+
+    $('.city').click(function (e) {
+        var x = $(this).html()
+        $("#fromcity").html(x);
+    });
+    $('.omenu').click(function () {
+        $('ul.lvl.l2').addClass("transorm-origin");
+    });
+    $('.back').click(function () {
+        $('ul.lvl.l2').removeClass("transorm-origin");
+    });
 });
