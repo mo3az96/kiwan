@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <!-- for internet explorere -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--(the most important line) for mobile first -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>GoldenHorse</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/css/fontawesome-all.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpcvkfdvIpjUPggYLBP2BR9d8iLnqeE4M"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>-->
+    <!--[if IE 7]>
+    <link href="css/font-awesome-ie7.min.css" rel="stylesheet">
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo-menu">
+                <div class="logo">
+                    <a href="#"><img src="images/logo.png" alt="logo" class="img-resposive"></a>
+                </div>
+                <div class="menu-button hidden-xs">
+                    <div class="menu">
+                        <ul class="list-unstyled list-inline">
+                            <li><a href="#">الرئيسية</a> </li>
+                            <li> <a href="#">من نحن</a> </li>
+                            <li> <a href="#">اتصل بنا</a></li>
+                        </ul>
+                    </div>
+                    <div class="log">
+                        <button>حسابي</button>
+                    </div>
+                </div>
+                <div class="button-mob hidden-lg hidden-md hidden-sm visible-xs">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="conoverlay"></div>
+        <div class="container">
+            <div class="contbx-space">
+                <div class="space hidden-xs hidden-sm">
+
+                </div>
+                <div class="contentbox">
+                    <h3>البحث عن رحلتك</h3>
+                    <form class="box">
+                        <div class="tabs">
+                            <label class="radio-cont">
+                                <input type="radio" checked="checked" name="radio" id="all">
+                                <span class="checkmark way-1" id="all"> ذهاب فقط</span>
+                            </label>
+                            <label class="radio-cont">
+                                <input type="radio" name="radio" id="new">
+                                <span class="checkmark way-2" id="new">ذهاب وعودة</span>
+                            </label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12">
+                                <label for="fromcity" class="input-header">من</label>
+                                <select class="selectpicker" id="fromcity">
+                                    <option hidden>اختر المدينة</option>
+                                    <option>القاهرة</option>
+                                    <option>القاهرة</option>
+                                    <option>القاهرة</option>
+                                    <option>القاهرة</option>
+                                    <option>القاهرة</option>
+                                    <option>القاهرة</option>
+                                    <option>القاهرة</option>
+                                    <option>القاهرة</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <label for="tocity" class="input-header">إلى</label>
+                                <select class="selectpicker " id="tocity">
+                                    <option hidden>اختر المدينة</option>
+                                    <option>القاهرة</option>
+                                    <option>القاهرة</option>
+                                    <option>القاهرة</option>
+                                    <option>القاهرة</option>
+                                    <option>القاهرة</option>
+                                    <option>القاهرة</option>
+                                    <option>القاهرة</option>
+                                    <option>القاهرة</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-6 col-xs-12">
+                                <label for="traveldate" class="input-header">تاريخ السفر</label>
+                                <div class="date-cont"> <input type="text" id="datepicker" class=""></div>
+                            </div>
+
+                            <div class="col-md-6 col-xs-12 way--2 opa">
+                                <label for="traveldate" class="input-header">تاريخ العودة</label>
+                                <div class="date-cont"> <input type="text" id="datepicker" class="" disabled></div>
+                            </div>
+
+                            <div class=" col-xs-12 way--2 opa">
+                                <button type="submit" class="button">بحث</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="sale">
+        <div class="container">
+            <div class="sale-code">
+                <div class="salebox">
+                    <p class="fistp">احجز الان</p>
+                    <h3>واستمتع بخصم 20%</h3>
+                    <p>على جميع الرحلات</p>
+                </div>
+                <div class="code">
+                    <p>انسخ البرومو كود</p>
+                    <h3>Horse20</h3>
+                </div>
+            </div>
+            <div class="pay">
+                <h2>وسائل دفع آمنة ومريحة</h2>
+                <ul class="list-unstyed list-inline">
+                    <li><img src="images/master.jpg" class="img-responsive"></li>
+                    <li><img src="images/visa.jpg" class="img-responsive"></li>
+                    <li><img src="images/fwri.jpg" class="img-responsive"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="about-social">
+                <div class="aboutbox">
+                    <img src="images/logo.png" class="img-responsive" alt="imghorse">
+                    <h2>شركة الحصان الذهبى
+                    </h2>
+                    <p>شركة مساهمة مصرية تعمل فى مجال نقل الركاب منذ عام 2002 تحت اشراف وزارة النقل وتمتلك اسطول كبير من
+                        السيارات التى تخدم عدة محافظات كما نمتلك خبرة كبيرة فى مجال نقل الركاب والنقل السياحى .
+
+                    </p>
+                    <a href="">عن شركة الحصان الذهبى
+
+                    </a>
+                </div>
+                <div class="social">
+                    <a href=""><img src="images/facebook.png" class="img-responsive"></a>
+                </div>
+            </div>
+            <div class="copy">
+                <p>© 2019 Golden Horse All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <div class="moboverlay"></div>
+    <div class="mob-nav hidden-lg hidden-md hidden-sm visible-xs">
+        <i class="fa fa-times"></i>
+        <ul class="nav navbar-nav">
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#">من نحن</a></li>
+            <li><a href="#">اتصل بنا</a></li>
+            <li><a href="#">حسابي</a></li>
+        </ul>
+    </div>
+    <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
