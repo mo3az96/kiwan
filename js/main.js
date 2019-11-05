@@ -25,12 +25,13 @@ $(document).ready(function () {
     });
 
     $("#datepicker").datepicker();
+    $("#datepick").datepicker();
     $('.way-2').click(function () {
-        $('.way--2 #datepicker').removeAttr('disabled');
+        $('.way--2 #datepick').removeAttr('disabled');
         $('.way--2').removeClass("opa");
     });
     $('.way-1').click(function () {
-        $('.way--2 #datepicker').attr('disabled');
+        $('.way--2 #datepick').attr('disabled');
         $('.way--2').addClass("opa");
     });
     $('#fromcity').click(function () {
